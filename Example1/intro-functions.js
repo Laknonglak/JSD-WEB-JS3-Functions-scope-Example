@@ -1,4 +1,4 @@
-//----------------------------------function calculate----------------------------------//
+//1.1----------------------------------function calculate----------------------------------//
 
 function addNumbers(a, b) {
       return a + b;
@@ -6,7 +6,7 @@ function addNumbers(a, b) {
 console.log (addNumbers (20,3));
 
 
-//-----------------------------------function info-----------------------------------------//
+//1.2-----------------------------------function info-----------------------------------------//
 
 function info(firstName){
     console.log('Hello ' + firstName);
@@ -15,7 +15,7 @@ function info(firstName){
  info('Jill');
  info('Tom'); 
 
-//---------------------------------function default parameter-------------------------------//
+//1.3---------------------------------function default parameter-------------------------------//
 function greet(name = "Guest") {
     console.log(`Hello, ${name}!`);
   }
@@ -26,7 +26,7 @@ function greet(name = "Guest") {
   
   
   
-  //--------------------------------Fewer Arguments than Parameters-----------------------------//
+  //1.4--------------------------------Fewer Arguments than Parameters-----------------------------//
   function greet1(name, age) {
     console.log(`Hello, ${name}! You are ${age} years old.`);
   }
@@ -35,7 +35,7 @@ function greet(name = "Guest") {
   
   
   
-  //----------------------------------More Arguments than Parameters----------------------------//
+  //1.5----------------------------------More Arguments than Parameters----------------------------//
   function greet2(name) {
     console.log(`Hello, ${name}!`);
   }

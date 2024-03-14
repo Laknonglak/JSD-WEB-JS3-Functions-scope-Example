@@ -1,4 +1,4 @@
-//-----------------------------------Object Literal----------------------------//
+//8.1 -----------------------------------Object Literal----------------------------//
 // Object literal representing a bank user
 const bankUser = {
     accountNumber: '1234567890',
@@ -40,7 +40,7 @@ console.log(bankUser.getTransactions()); // Output: ['Deposit: +1000', 'Withdraw
 
 
 
-//--------------------------------------constructor Object-----------------------------//
+//8.2 --------------------------------------constructor Object-----------------------------//
 // Constructor function for BankUser
 function BankUser(accountNumber, firstName, lastName, balance, accountType) {
     this.accountNumber = accountNumber; // 'this' refers to the new object being created

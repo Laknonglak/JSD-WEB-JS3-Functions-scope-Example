@@ -1,4 +1,4 @@
-//-------------------------------Declaration vs Expression functions----------------------//
+//4.1 -------------------------------Declaration vs Expression functions----------------------//
 
 //Declaration
 function info(firstName){
@@ -15,7 +15,7 @@ myInfo('Jill');
 
 
 
-//----------------------------------hoisting----------------------------------------//
+//4.2----------------------------------hoisting----------------------------------------//
 //hoisting functions
 info1('Peter'); //Peter
 

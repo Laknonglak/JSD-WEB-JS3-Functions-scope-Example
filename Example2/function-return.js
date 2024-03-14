@@ -1,4 +1,4 @@
-//---------------------------------Return ---------------------------------//
+//2.1 ---------------------------------Return ---------------------------------//
 function add(a, b) {
   return a + b; // Returns the sum of a and b
 }
@@ -9,7 +9,7 @@ console.log(result); // Outputs: 65
 
 
 
-//----------------------------Return then do thing else--------------------//
+//2.2 ----------------------------Return then do thing else--------------------//
 function calculateTax(income) {
   const taxRate = 0.2; // 20% tax rate
   const taxAmount = income * taxRate;
